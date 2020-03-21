@@ -8,7 +8,7 @@ public class MaxMin2DArray {
 		for(int i=0; i<num.length;i++) {
 			for(int j=0;j<num[i].length;J++);{
 			int element=num[i][j];
-			if()
+		
 			}
 		}
 		
