@@ -3,11 +3,8 @@ package com.syntax.class11;
 public class Recape {
 
 	public static void main(String[] args) {
-		String[][] groceries = { 
-				{ "cucumber", "potato", "carrot" },
-				{ "mango", "apple", "banana", "kiwi" },
-				{ "milk", "cheese", "yogurt" }
-				};
+		String[][] groceries = { { "cucumber", "potato", "carrot" }, { "mango", "apple", "banana", "kiwi" },
+				{ "milk", "cheese", "yogurt" } };
 
 		System.out.println(groceries[1][2]);
 

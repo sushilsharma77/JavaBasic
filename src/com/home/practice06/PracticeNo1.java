@@ -1,18 +1,18 @@
 package com.home.practice06;
 
 public class PracticeNo1 {
-	
+
 	public static void main(String[] args) {
-		int monthName=4;
-		switch(monthName) {
+		int monthName = 4;
+		switch (monthName) {
 		case 1:
-		System.out.println("Janaury");
+			System.out.println("Janaury");
 			break;
 		case 2:
 			System.out.println("February");
 			break;
 		case 3:
-			System.out.println("March"); 
+			System.out.println("March");
 			break;
 		case 4:
 			System.out.println("April");
@@ -44,9 +44,7 @@ public class PracticeNo1 {
 		default:
 			System.out.println("Invalid");
 		}
-		
-		
-		
+
 	}
-	
+
 }

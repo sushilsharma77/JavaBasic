@@ -11,20 +11,16 @@ public class HomeWork1 {
 		double denmark = 222.054587421;
 		char china = '@';
 		boolean bhutan = true;
-			
-	System.out.println(moscow);
-	System.out.println(newYork);
-	System.out.println(paris);
-	System.out.println(virginia);
-	System.out.println(france);
-	System.out.println(denmark);
-	System.out.println(china);
-	System.out.println(bhutan);
 
-			 
+		System.out.println(moscow);
+		System.out.println(newYork);
+		System.out.println(paris);
+		System.out.println(virginia);
+		System.out.println(france);
+		System.out.println(denmark);
+		System.out.println(china);
+		System.out.println(bhutan);
 
-				 
-		
-		}
+	}
 
 }

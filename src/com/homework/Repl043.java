@@ -5,56 +5,53 @@ import java.util.Scanner;
 public class Repl043 {
 
 	public static void main(String[] args) {
-		Scanner input=new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		int num;
 		String month;
-		
+
 		System.out.println("Input a number between 1-12");
-		num=input.nextInt();
-		
-		switch(num) {
+		num = input.nextInt();
+
+		switch (num) {
 		case 1:
-			month="January";
+			month = "January";
 			break;
 		case 2:
-			month="February";
+			month = "February";
 			break;
 		case 3:
-			month="March";
+			month = "March";
 			break;
 		case 4:
-			month="April";
+			month = "April";
 			break;
 		case 5:
-			month="May";
+			month = "May";
 			break;
 		case 6:
-			month="June";
+			month = "June";
 			break;
 		case 7:
-			month="July";
+			month = "July";
 			break;
 		case 8:
-			month="August";
+			month = "August";
 			break;
 		case 9:
-			month="September";
+			month = "September";
 			break;
 		case 10:
-			month="October";
+			month = "October";
 			break;
 		case 11:
-			month="November";
+			month = "November";
 			break;
 		case 12:
-			month="December";
+			month = "December";
 			break;
 		default:
-			month="Invalid";
-			
-		
-		
-			
+			month = "Invalid";
+
 		}
 		System.out.println(month);
 

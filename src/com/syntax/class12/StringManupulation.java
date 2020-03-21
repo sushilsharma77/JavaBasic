@@ -12,8 +12,9 @@ public class StringManupulation {
 		char letter5 = str.charAt(4);
 		System.out.println("Letter at index 4 is " + letter5 + ".");
 
-      // char someLetter=str.charAt(55);// RunTime Exception --> StringIndexOutOfBoundsException
-       //System.out.println(someLetter);
+		// char someLetter=str.charAt(55);// RunTime Exception -->
+		// StringIndexOutOfBoundsException
+		// System.out.println(someLetter);
 
 		// get all characters 1 by 1 from a String?
 		char letter;

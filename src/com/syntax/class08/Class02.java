@@ -9,15 +9,10 @@ public class Class02 {
 		// times.
 		// As soon as you get an “yes” from a user program should stop asking.
 		Scanner scan = new Scanner(System.in);
-		int i=1;
+		int i = 1;
 		String answer;
 		System.out.println("Do you want to apply for a credit card (Yes/no)");
-		
-		
-		
-		
 
-		
 	}
 
 }

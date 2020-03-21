@@ -17,29 +17,25 @@ public class Task03 {
 			} else if (countries[i].equals("China")) {
 				capital = "Beijing";
 			}
-			System.out.println(countries[i]+" "+capital);
+			System.out.println(countries[i] + " " + capital);
 		}
 		System.out.println("------------next way------------");
-		
-		String[] country= {"Nepal", "India", "China"};
-		for(String st:country) {
-			if(st.equals("Nepal")) {
-				capital="Kathmandu";
-			}else if(st.equals("India")) {
-				capital="New Delhi";
-			}else if(st.equals("China")) {
-				capital="Beijing";
+
+		String[] country = { "Nepal", "India", "China" };
+		for (String st : country) {
+			if (st.equals("Nepal")) {
+				capital = "Kathmandu";
+			} else if (st.equals("India")) {
+				capital = "New Delhi";
+			} else if (st.equals("China")) {
+				capital = "Beijing";
 			}
-			System.out.println(st+ " " +capital);
-			
+			System.out.println(st + " " + capital);
+
 		}
-		
+
 		System.out.println("_--------switch---------------------");
-		
-		
-		
-		
-		
+
 	}
 
 }

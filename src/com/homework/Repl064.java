@@ -12,12 +12,10 @@ public class Repl064 {
 		end = end * 2;
 
 		for (i = 0; i < end; i++) {
-			
-		
-			System.out.print(i+" ");
+
+			System.out.print(i + " ");
 
 		}
-
 
 	}
 

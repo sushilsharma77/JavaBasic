@@ -3,7 +3,7 @@ package com.syntaxclass10;
 public class AdvancedForLoop {
 
 	public static void main(String[] args) {
-		
+
 		char[] grades = { 'A', 'B', 'C', 'D', 'E', 'F' };
 		// getting all elements
 		for (int i = 0; i < grades.length; i++) {
@@ -16,7 +16,7 @@ public class AdvancedForLoop {
 		}
 		System.out.println();
 		// create an array of fruits and retrieve all elements
-		String[] fruits = { "Bnana", "Kiwi","Apple", "Mango", };
+		String[] fruits = { "Bnana", "Kiwi", "Apple", "Mango", };
 		// if fruits is apple -->that is your favorite fruit
 		// advanced for for loop , enhanced for loop
 		for (String fruit : fruits) {
@@ -31,7 +31,6 @@ public class AdvancedForLoop {
 		for (int i = 0; i < fruits.length; i++) {
 			System.out.println(fruits[i]);
 		}
-		
 
 	}
 

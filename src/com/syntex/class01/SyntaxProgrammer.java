@@ -7,8 +7,5 @@ public class SyntaxProgrammer {
 		System.out.println("I study at Syntex.");
 		System.out.println("I love Java!");
 	}
-	
 
-	}
-
-
+}

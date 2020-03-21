@@ -23,7 +23,6 @@ public class TwoDimentionalArray {
 		System.out.println("___________next way_____________________");
 		int[][] num = { { 10, 20, 30, 40 }, { 5, 10, 15, 20 }, { 1, 2, 3, 4 } };
 		System.out.println(num[1][1]);
-		
 
 	}
 

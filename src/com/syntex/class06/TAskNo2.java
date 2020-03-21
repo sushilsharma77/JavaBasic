@@ -7,30 +7,30 @@ public class TAskNo2 {
 	public static void main(String[] args) {
 		char grade;
 		String explanation;
-		
-		Scanner scan=new Scanner(System.in);
+
+		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter your grade");
-		grade=scan.next().charAt(0);
-		
-		switch(grade) {
+		grade = scan.next().charAt(0);
+
+		switch (grade) {
 		case 'A':
-			explanation="Excellent";
+			explanation = "Excellent";
 			break;
 		case 'B':
-			explanation="Good";
+			explanation = "Good";
 			break;
 		case 'c':
-			explanation="Average";
+			explanation = "Average";
 			break;
 		case 'D':
-			explanation="Bad";
+			explanation = "Bad";
 			break;
 		default:
-				explanation="Unknown";
-				
+			explanation = "Unknown";
+
 		}
-		System.out.println("Your score is "+explanation);
-		
+		System.out.println("Your score is " + explanation);
+
 	}
 
 }
