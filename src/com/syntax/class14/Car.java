@@ -8,7 +8,7 @@ public class Car {
 	String color;
 	int speed;
 	
-	//definr behaviours
+	//define behaviours
 	void drive() {
 		System.out.println(make+" can drive");
 	}
