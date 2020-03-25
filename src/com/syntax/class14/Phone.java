@@ -5,48 +5,40 @@ public class Phone {
 //iPhone, Android, Nokia with specific  attributes and behaviors.
 	String model;
 	String color;
-	String capacity;
-
-	public static void main(String[] args) {
-		Phone iPhone = new Phone();
-		iPhone.model = "iphone XI";
-		iPhone.color = "silver";
-		iPhone.capacity = "64gb";
-
-		iPhone.ring();
-		iPhone.text();
-		iPhone.internet();
-
-		Phone nokia = new Phone();
-		nokia.model = "nokia2015";
-		nokia.color = "black";
-		nokia.capacity = "28gb";
-
-		nokia.ring();
-		nokia.text();
-		nokia.internet();
-
-		Phone android = new Phone();
-		android.model = "Samsung S10";
-		android.color = "Gray";
-		android.capacity = "56gb";
-
-		android.ring();
-		android.text();
-		android.internet();
-
-	}
-
-	void ring() {
-		System.out.println(model + " rings");
-	}
-
+	double price;
+	
 	void text() {
-		System.out.println(model + " send the text");
+		System.out.println(model+" send text");
+	}void call(){
+		System.out.println(model+" access for call");
 	}
-
-	void internet() {
-		System.out.println(model + " has access of internet");
+	public static void main(String[] args) {
+		Phone iPhone=new Phone();
+		iPhone.model="iphone10";
+		iPhone.color="Silver";
+		iPhone.price=1000;
+		
+		iPhone.text();
+		iPhone.call();
+		
+		Phone Android=new Phone();
+		Android.model="Samsung11";
+		Android.color="Black";
+		Android.price=850;
+		
+		Android.text();
+		Android.call();
+		
+		Phone Nokia=new Phone();
+		Nokia.model="Nokia_ss";
+		Nokia.color="Red";
+		Nokia.price=570;
+		
+		Nokia.text();
+		Nokia.call();
+		
+		
+		
+		
 	}
-
 }
