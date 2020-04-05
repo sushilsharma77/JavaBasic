@@ -14,7 +14,7 @@ public class Employee {
 		}
 		
 		protected void method2() {
-			System.out.println("I am proteced methid");
+			System.out.println("I am proteced method");
 		}
 		
 		void method3() {
