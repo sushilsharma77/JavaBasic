@@ -22,7 +22,7 @@ public void display() {
 }
 
 }
-class Main{
+class Test11{
 	public static void main(String[] args) {
 		Car obj=new Car("Toyota","Prius",4,120,30000);
 		obj.make="Toyota";
