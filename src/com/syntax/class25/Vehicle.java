@@ -10,7 +10,7 @@ public abstract class Vehicle {
 	}
 
 	public static void total() {
-		System.out.println("we build " + totalVehicles);
+		System.out.println("we build" + totalVehicles);
 	}
 
 	public void drive() {
